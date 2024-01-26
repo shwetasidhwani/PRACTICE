@@ -1,6 +1,11 @@
 Welcome to the HTML and CSS Projects repository! This repository contains a collection of projects built using HTML and CSS, showcasing various web design and development techniques. Each project offers a hands-on learning experience and demonstrates different aspects of front-end web development, including responsive design, layout techniques, styling, and more.
 
 Projects Overview:
+Search Bar Project:
+
+Description: A dynamic search bar implemented using HTML, CSS, and JavaScript. The search bar allows users to input search queries and dynamically filter a list of items based on the entered text.
+Technologies: HTML5, CSS3, JavaScript
+
 4-Card Feature Website:
 
 Description: A simple webpage featuring four cards, each highlighting a distinct feature or service. The layout is designed using HTML and CSS, with responsive design principles applied for optimal viewing across different devices.
