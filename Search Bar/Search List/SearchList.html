@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="SearchList1.css" />
+    <script src="SearchList2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search List</title>
+  </head>
+  <body>
+    <h1>Search List</h1>
+    <div id="search-list">
+      <input
+        type="text"
+        id="user-input"
+        onkeyup="myFunction()"
+        placeholder="Search Friends *insert smiley face*"
+      />
+
+      <!-- onkeyup is an event that occurs when  user releases a key on the keyboard
+        onkeypress is one that occurs when user presses a key
+        onkeydown occurs when user presses a key-->
+
+      <ul id="drop-down-menu">
+        <li><a href="Friends/Ash.html">Friend1</a></li>
+        <li><a href="Friends/Dhruve.html">Friend2</a></li>
+        <li><a href="Friends/Vaishnavi.html">Friend3</a></li>
+        <li><a href="Friends/Shweta.html">Shweta</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

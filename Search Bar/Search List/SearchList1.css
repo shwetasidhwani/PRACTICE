@@ -1,0 +1,100 @@
+/*font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+Noto Sans Light 300
+Regular 400
+SemiBold 600
+Roboto Condensed Light 300
+
+*/
+
+:root {
+  --search_bar-bg-clr: #fff;
+  --bg-clr: #f0ebeb;
+  --text-clr: #fff;
+
+  --ff-links: "Roboto Condensed", sans-serif;
+  --ff-normal: "Noto Sans", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: var(--text-clr);
+  font-family: var(--ff-normal);
+  text-align: center;
+  font-size: 60px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*vh = viewport height*/
+  background-image: url("img/personsinging.jpg");
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#search-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#user-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  background-image: url(img/bx-search-alt.svg);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+
+  width: 600px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#drop-down-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  width: 600px;
+}
+
+#drop-down-menu li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #e8e2e2;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  display: block;
+}
+
+#drop-down-menu li a:hover {
+  background-color: #dd8b8b; /* Add a hover effect to all links, except for headers */
+}
